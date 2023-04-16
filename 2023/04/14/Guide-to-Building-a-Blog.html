@@ -12,25 +12,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="BreadKiller">
   <meta name="keywords" content="">
   
-    <meta name="description" content="宽容、纠正和远离">
+    <meta name="description" content="为小白而写">
 <meta property="og:type" content="article">
-<meta property="og:title" content="品味、语言和社交网络">
-<meta property="og:url" content="http://example.com/2023/03/30/%E5%93%81%E5%91%B3%E3%80%81%E8%AF%AD%E8%A8%80%E5%92%8C%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E5%92%8C/index.html">
+<meta property="og:title" content="低成本搭建博客并进行域名、图床、多媒体和备份的配置">
+<meta property="og:url" content="https://breadkiller.com/2023/04/14/Guide-to-Building-a-Blog.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="宽容、纠正和远离">
+<meta property="og:description" content="为小白而写">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-03-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-04-16T01:53:07.371Z">
+<meta property="article:published_time" content="2023-04-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-04-16T12:15:15.617Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>品味、语言和社交网络 - Hexo</title>
+  <title>低成本搭建博客并进行域名、图床、多媒体和备份的配置 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -68,7 +70,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.4","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"breadkiller.com","root":"/","version":"1.9.4","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -184,7 +186,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">品味、语言和社交网络</span>
+            <span id="subtitle">低成本搭建博客并进行域名、图床、多媒体和备份的配置</span>
           
         </div>
 
@@ -195,8 +197,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-03-30 00:00" pubdate>
-          2023年3月30日 凌晨
+        <time datetime="2023-04-14 00:00" pubdate>
+          2023年4月14日 凌晨
         </time>
       </span>
     
@@ -240,26 +242,65 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">品味、语言和社交网络</h1>
+            <h1 style="display: none">低成本搭建博客并进行域名、图床、多媒体和备份的配置</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="品味、语言和社交网络"><a href="#品味、语言和社交网络" class="headerlink" title="品味、语言和社交网络"></a>品味、语言和社交网络</h1><h2 id="品味"><a href="#品味" class="headerlink" title="品味"></a>品味</h2><p>一提到音乐就难以避免提到所谓的鄙视链：古典→爵士→摇滚→电子→流行→说唱→喊麦。但似乎并不应该是这样子的。李如一先生在谈到「センスがある」（有品味）的时候，说道：「中華人民共和國目前不存在正面自然地稱讚對方『品味很好』並被欣然接受的可能。」虽然不太清楚他的意思是否指中国总体上尚未脱离文人相轻的环境，但就我的身边统计学而言，关于音乐品味的攀比并不少见。</p>
-<p>但我总是觉得品味是天生的，或许我们的 DNA 序列和选择性表达已经决定了我们对哪一种和弦会产生更多的多巴胺。曾经媚雅的心理驱动我去听贝多芬，可是听完了 32 首钢琴奏鸣曲也没找到哪一首能真正的让我感到，像听喜欢的流行音乐一样的兴奋、激动的感觉。可后来开始听 OST 之后，却又从《八方旅人 OST》中找到了那种潜藏在内心深处的情感。没玩过游戏，甚至还是在坐长途车的时候，戴着廉价的耳机，从收藏的专辑中随意地点开。但是播到了「踊子プリムロゼのテーマ」的时候，不知道为什么眼泪就落了下来，那时候似乎理解了在网易云音乐里对冗长的钢协感到悲伤的听众们。可是不是每一个人都像我一样，能有充足的机会去接触、探索接近自己内心真正喜好的音乐。「当你想批评别人的时候，要记住不是每一个人都像你一样拥有过优越的条件」也许他们是刚拿到手机的山区孩童，点开预装在系统里的抖音的时候，就被那些「能令大多数人都喜欢」的 4536251 歌曲困在了推荐算法中。但是如果一个人都还在为生计奔波的时候，《孤勇者》给了他一点生活的勇气，那音乐对他的意义并不亚于能够为钢协感到悲伤的人们。</p>
-<h2 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h2><p>语言是塑造思维的工具。</p>
-<p>ChatGPT 如果解决了所有翻译问题，外语会不会不再作为「获取需要的信息的工具」而是作为「塑造思维的工具」而存在呢？第一天上编程课的时候，老师说，编程语言带来的逻辑思维是很重要的，有的程序员只喜欢和机器交流，因为只有机器会根据你的要求精确地行动。</p>
-<p>日语学得不久，比起英语在这一点上更有体会。「君のことが好き」如果用逐字翻译来理解：（我）喜欢你的事情——是讲不通的。好吧，而且这跟「我喜欢霙的双簧管」没有关系，所以它只能通过原文本身来理解。这只是管中窥豹的一角，包括但不限于倒装句、敬语，都在每一次造句、翻译中影响着个人的思考方式，由此来体会一个国家和民族的文化实在是非常美妙的一件事。</p>
-<h2 id="社交网络"><a href="#社交网络" class="headerlink" title="社交网络"></a>社交网络</h2><p>即使是社恐的宅宅手机里也会有一两个 QQ 群每天上去发发言。似乎社交是每个人类内心深层都渴望的事物，可是 QQ 群还好，当一个中心化社交网络被建立起来，五湖四海的人们聚集在一起，一双无形的大手伸进来搅拌的时候，这个空间就会因为戾气越来越被人鄙夷。</p>
-<p>飞龙<a target="_blank" rel="noopener" href="https://write.as/soulhacker/hu-lian-wang-wei-he-li-qi-zhong">说</a>互联网戾气重的原因是不自由，因为压力无处发泄才需要用很多无谓的谐音、形近词来进行自我审查，甚至演化到现在连不受审查的「大便」都要讲成「答辩」——当然有人会说这个只是单纯觉得有趣，可是也许那是被其它同样「有趣」的谐音词所污染得积非成是的大脑觉得的有趣。</p>
-<p>回到戾气的话题，看到近几年对贴吧进行的「整治」我头脑里总会想到一些比喻画面：用污水冲刷臭水沟。污水冲刷完毕后，无数的微生物和蛆虫又会继续滋生，还选择性地进化了那些没有适应这个环境的人。</p>
-<p>看到一些 985 高校里的杀人、投毒和性骚扰等恶劣事件，也许有的人的第一反应是「这么高学历的人都会做出这样的事情！？」然而学识与修养并没有必然关系。在谈论素质教育与应试教育的时候，很多人把重心放到了「高考是普通家庭实现阶级跃升的最好的方法」云云的功利方面的思考，却鲜有人真正地讨论我们是否有足够的素质上的教育。请读者自查，在小学时期学到过的「己所不欲勿施于人」「我在马路边捡到一分钱」「文明礼貌、助人为乐」的美好品德，自己是否坚定地执行到现在？不愿意下载速度慢而使用迅雷下载 BT；捡到一台手机立刻蒙摄像头拆电池带回家格式化；在被网爆而自杀的粉发女孩的新闻下发出「好似开香槟」的评论。显而易见的道德问题，如果真切地发生在自己身上，究竟会怎么做呢？</p>
-<blockquote>
-<p>现在国内社会价值观和道德标准的教授过程中，未把其基础内容作为严肃的课堂知识学习，反而将目前而言更为理想的标准作为高不可攀的口号来体会。整个社会都过分崇拜物质主义，甚至当成高高在上凡人不可触碰的“教义”，认为知识能解决一切包括精神层面的问题，认定人的精神部分不过驱动人们行动的凭依。当人以唯物质化眼光来评判一切时，精神上的空虚也就不奇怪了。<br>————<a target="_blank" rel="noopener" href="https://bangumi.tv/group/topic/378877#post_2265325">湛蓝De豌豆</a></p>
+                <h1 id="低成本搭建博客并进行域名、图床、多媒体和备份的配置"><a href="#低成本搭建博客并进行域名、图床、多媒体和备份的配置" class="headerlink" title="低成本搭建博客并进行域名、图床、多媒体和备份的配置"></a>低成本搭建博客并进行域名、图床、多媒体和备份的配置</h1><p>包括 GitHub Pages 在内的工具日新月异，加之网络上大部分教程面向对象主要为程序员，所以我希望通过本文对教程中较为含糊的步骤进行解释，以帮助小白。本文以这篇<a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190">文章</a>为基础进行 GitHub Pages + hexo +Fluid 主题的博客的搭建，「低成本」指的是这个搭建组合唯一需要支出的费用仅为域名费用，不购买域名就是免费，但我觉得「没内味」。本文主要记录搭建过程中遇到的一些问题以及解决方法。</p>
+<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><ol>
+<li><p>在安装 Git 的时候没有进行邮箱的配置，似乎没有问题。</p>
+</li>
+<li><p>在建立新的仓库（repository）的时候，注意要选用 Public，这个是默认的，即只要填上 <code>&lt;用户名&gt;.github.io</code> 就可以了。</p>
+</li>
+<li><blockquote>
+<p>如下修改 Hexo 博客目录中的 _config.yml：<br> theme: fluid  # 指定主题<br> language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改  </p>
 </blockquote>
-<p>不从根本上去提升网民的道德素质（是指他们内心真实地能感觉到什么言论严重了违反社会主义核心价值观），用再多污水冲刷臭水沟，它都不会被净化。有的人对「简中互联网」的批判也是过于笼统的，简中无罪，有罪的是互联网。</p>
-<p>顺带一提，这段引用如果结合上文的品味而言，似乎也包含了对「艺术能当饭吃吗？」的批判，因为确实鲜有艺术家是在升官发财有闲情雅致之后才开始搞艺术创作。2020 年中国已经全面脱贫了，以「还没吃饱饭」为由抵制农村人等低收入人群对艺术的接触和学习的观点，是站不住脚的。</p>
-<p>如果你希望为拯救中文和为净化互联网出一份力，请先从在日常生活中拒绝这些不正规的词句开始，或者至少给它们加上一个引号，不是方引号不是弯引号，是<a target="_blank" rel="noopener" href="https://blog.yitianshijie.net/2018/03/13/chinese-quotation-marks-activism/">中文引号</a>「『』」。</p>
+<ul>
+<li>注意这一步以及下面所有需要打开文件进行修改的步骤，都建议通过 VS Code 文本编辑器来进行。</li>
+<li>theme 实际上就是储存在 hexo 安装位置 <code>C:\Users\&lt;用户名&gt;\hexo-blog</code> 里的 <code>themes</code> 中的文件夹，这也是为什么上一步需要把解压后的文件夹改名。</li>
+<li>language 可以通过 <code>C:\Users\&lt;用户名&gt;\hexo-blog\themes\fluid\languages</code> 中的文件进行查询。比如如果希望 Fluid 使用台湾繁体那就将其改为 <code>zh-TW</code>。</li>
+</ul>
+</li>
+<li><p>第九步发布到 GitHub Pages中，要获取 <code>repo</code> 的链接，在你的仓库的首页点击 <code>Code</code> 后复制 <code>HTTPS</code> 下的链接即可。</p>
+</li>
+</ol>
+<h2 id="域名设置"><a href="#域名设置" class="headerlink" title="域名设置"></a>域名设置</h2><p>参考了这个<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/31377141">问答</a>。还算顺利。</p>
+<p>我在 Cloudflare 上购买了这个域名，看重的是 Cloudflare 每年的价格都是基本一致的，应该不会出现第二年天价续费的情况，而且它支持 PayPal 支付，还有部分中文支持。</p>
+<p>购买域名后，点击<code>网站</code>，选择刚刚购买的域名，点击 <code>DNS</code>，点击<code>添加记录</code>，添加两个 <code>CNAME</code> 类型，目标分别写上网站地址和 <code>www</code> ，网站地址如我的 <code>breadkiller.com</code> ，内容均为 <code>&lt;仓库名&gt;.github.io</code>，其它默认，保存即可。其余步骤根据上述链接可以解决，记得做这一步会很方便：</p>
+<blockquote>
+<p>把 CNAME 文件添加到 source 文件夹里</p>
+</blockquote>
+<p>Cloudflare 上的关于安全性的功能根据推荐随手设置一下即可，有空会再去研究一下它的其它服务。</p>
+<p>需要注意的是，在进行修改主题之类的操作时，hexo 的 <code>http://localhost:4000</code> 页面和自定义域名之间不是完全同步的，后者大约有半小时左右的延迟。</p>
+<h2 id="图床设置"><a href="#图床设置" class="headerlink" title="图床设置"></a>图床设置</h2><p>我已有一台黑群晖，但担忧于它的稳定性，我选择使用 PicGo + GitHub + Jsdelivr 的组合。根据这篇<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/489236769">教程</a>设置，一路顺利，唯一的小问题的是 PicGo 在托盘中需要双击才能打开。</p>
+<h2 id="Fluid-主题配置"><a href="#Fluid-主题配置" class="headerlink" title="Fluid 主题配置"></a>Fluid 主题配置</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">官方文档</a>很详尽，只记录几点。</p>
+<ul>
+<li><p>在 <code>cd hexo-blog</code> 后用 <code>hexo g</code> 生成静态页面。当更新了 <code>_config.fluid.yml</code> 后，需要使用它重新生成静态页面，才能使更改生效，不过只是修改文章内容是不需要的，保持 <code>http://localhost:4000/</code> 在线，刷新后就可更新。而 <code>hexo s</code> 是指启动本地服务器。在执行这个命令后，可以通过本地浏览器访问 <code>http://localhost:4000/</code> 来查看当前 Hexo 博客的效果。这样可以在本地预览、测试博客主题、排版等效果，而不必每次修改后都上传到服务器上才能查看效果，在完成所有修改后，用 <code>hexo g -d</code> 来上传到服务器，这时候域名所在网站就会部署完成。</p>
+</li>
+<li><p>字体家族根据这篇<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/139652407">文章</a>进行设置 <code>font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Heiti SC&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif</code><br>但是这样最终效果是，中文会使用微软雅黑，虽然这个字体渲染得很好看，但我已经看腻了。在删除了 <code>Microsoft YaHei</code> 之后，网站会使用<code>华康黑体简 W5-A</code> 这个字体，而使用 <code>F12 =&gt; Ctrl+Shift+M</code> 模拟移动设备进行阅览时仍然为这个字体。我喜欢这个字体较短的中文引号（「」）但不喜欢它方正的分号和逗号（； ，），不过对我来说只要不是微软雅黑，基本都能接受。注意在设置字体家族时，末尾不能有分号，直接复制粘贴知乎文末的代码， CMD 中会报错：<code>err: YAMLException: can not read a block mapping entry</code>，同样地，如果在修改 <code>_config.fluid.yml</code> 并进行 <code>hexo g =&gt; hexo s  =&gt; http://localhost:4000</code> 后发现页面并没有变化，观察 CMD 中的错误可以帮助解决问题。也建议单引号将每个字体系列括起来，并在外面再用双引号将它们封装成一个字符串，以下为我最终的设置：<br>  <code>font_family: &quot;&#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, &#39;Arial&#39;, &#39;Hiragino Sans GB&#39;, &#39;Heiti SC&#39;, &#39;WenQuanYi Micro Hei&#39;, sans-serif&quot;</code>。</p>
+</li>
+<li><p>想统一所有文章的头图，在文档中描述如下：</p>
+<blockquote>
+<p><strong>文章页顶部大图</strong><br>默认显示主题配置中的 post.banner_img，如需要设置单个文章的 Banner，在 Front-matter (opens new window)中指定 banner_img 属性。</p>
+</blockquote>
+<p>  其实在 <code>_config.fluid.yml</code> 中通过 <code>Ctrl + F</code> 找不到 <code>post.banner_img</code> 这一项。实际上它的位置在</p>
+  <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yml">  <span class="hljs-attr">post:</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">/img/default.png</span><br><span class="hljs-attr">banner_img_height:</span> <span class="hljs-number">70</span><br><span class="hljs-attr">banner_mask_alpha:</span> <span class="hljs-number">0.3</span><br></code></pre></td></tr></table></figure>
+
+<p>  搜索 <code>banner_img</code> 并移动几次就能找到。</p>
+</li>
+<li><p>根据文档关闭自动摘要并不设定手动摘要，摘要处就会留空，但如果在 front_matter 那里的 <code>excerpt:</code> 后打一个空格，CMD会报错：<code>ERROR &#123; err: ValidationError: `null` is not a string!</code></p>
+</li>
+<li><p>文档中的 Tag 插件感觉很好用，但是使用频率低，需要的时候可以再查阅使用。</p>
+</li>
+</ul>
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
+<li>因为博客要求文章前面要有 front_matter，使用 <code>markdownlint</code> 在为博客写作时会报错 MD25，可以通过如下设置<blockquote>
+<p>vscode =&gt; 扩展（ctrl+shift+X） =&gt; 单击 maekdownlint =&gt; 单击「卸载」右边的齿轮 =&gt; 扩展设置 =&gt; 找到「在 settings.json 中编辑」 =&gt; 在 <code>&quot;markdownlint.config&quot;: &#123; &#125;</code> 括号下添加这个代码：<code> &quot;MD025&quot;:false,</code></p>
+</blockquote>
+</li>
+</ul>
+<p>-nih</p>
 
                 
               </div>
@@ -278,7 +319,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%83%A6%E5%86%97%E4%B9%8B%E6%96%87/" class="category-chain-item">烦冗之文</a>
+  <a href="/categories/Not-Even-Wrong/" class="category-chain-item">Not Even Wrong</a>
   
   
 
@@ -298,8 +339,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>品味、语言和社交网络</div>
-      <div>http://example.com/2023/03/30/品味、语言和社交网络和/</div>
+      <div>低成本搭建博客并进行域名、图床、多媒体和备份的配置</div>
+      <div>https://breadkiller.com/2023/04/14/Guide-to-Building-a-Blog.html</div>
     </div>
     <div class="license-meta">
       
@@ -309,11 +350,11 @@
         </div>
       
       
-        <div class="license-meta-item license-meta-date">
-          <div>发布于</div>
-          <div>2023年3月30日</div>
-        </div>
       
+        <div class="license-meta-item license-meta-date">
+          <div>更新于</div>
+          <div>2023年4月16日</div>
+        </div>
       
       
         <div class="license-meta-item">
@@ -322,9 +363,21 @@
             
               
               
-                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
                   </span>
                 </a>
               
@@ -343,9 +396,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/03/30/%E7%BD%91%E8%B4%AD%E6%8C%87%E5%8D%97/" title="一手平台网购指南">
+                      <a href="/2023/04/16/index.html" title="">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">一手平台网购指南</span>
+                        <span class="hidden-mobile"></span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -353,8 +406,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/03/30/%E7%A6%BB%E5%BC%80%E7%94%B5%E7%AB%9E%E7%9A%84%E7%AC%AC%E4%B8%89%E5%B9%B4/" title="离开电竞的第三年">
-                        <span class="hidden-mobile">离开电竞的第三年</span>
+                      <a href="/2023/04/11/Why-is-it-like-this.html" title="为什么会这样呢">
+                        <span class="hidden-mobile">为什么会这样呢</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
