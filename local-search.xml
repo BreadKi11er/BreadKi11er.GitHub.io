@@ -131,25 +131,6 @@
   
   
   <entry>
-    <title>几个问题</title>
-    <link href="/2023/04/06/A-few-question.html"/>
-    <url>/2023/04/06/A-few-question.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="几个问题"><a href="#几个问题" class="headerlink" title="几个问题"></a>几个问题</h1><p>判断一个人能否深交，我会问他几个问题。</p><ul><li>朗朗和周杰伦，前者演绎他人作品，后者制作原创作品，从这一方面看谁更伟大？</li></ul><blockquote><p>能回答出演绎他人作品的过程也有原创部分可以加分。</p></blockquote><ul><li>为（占少数的）残疾人设计的粘滞键默认开启，影响了（占多数的）游戏玩家游玩游戏，是否公平？推广：若为（占少数的）残疾人设计的盲道占道路总宽的 20%，但残疾人数量仅占中国的 13% 不到，（法律要求严禁占用盲道）是否公平？</li></ul><blockquote><p>据七普，盲人数量 1730 万。假设盲道设计宽度为 0.5m，符合一些宽 2.5m 以下的窄人行道的情况。</p></blockquote><ul><li>对给宠物猫狗喂食高端食物的行为算不算「狗彘食人食而不知检」？</li></ul><blockquote><p>参见：马克吃战斧牛排被 bilibili 用户攻击，京东三文鱼评论中喂猫吃三文鱼的视频被楼中楼评论攻击，但后者被转发到微博后，微博的舆论完全倾向于「喂猫吃三文鱼没问题」。</p></blockquote><p>其实答案无所谓有也无所谓无，我只是想知道这个人是否拥有沉下心来思考这些「不务正业」的问题的能力。至于那些「懒得去想」的人，也只能「道不同，不相为谋」了。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>委碎之词</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>大尺度影片</title>
     <link href="/2023/04/06/Sensual-films.html"/>
     <url>/2023/04/06/Sensual-films.html</url>
@@ -169,11 +150,30 @@
   
   
   <entry>
+    <title>几个问题</title>
+    <link href="/2023/04/06/A-few-question.html"/>
+    <url>/2023/04/06/A-few-question.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="几个问题"><a href="#几个问题" class="headerlink" title="几个问题"></a>几个问题</h1><p>判断一个人能否深交，我会问他几个问题。</p><ul><li>朗朗和周杰伦，前者演绎他人作品，后者制作原创作品，从这一方面看谁更伟大？</li></ul><blockquote><p>能回答出演绎他人作品的过程也有原创部分可以加分。</p></blockquote><ul><li>为（占少数的）残疾人设计的粘滞键默认开启，影响了（占多数的）游戏玩家游玩游戏，是否公平？推广：若为（占少数的）残疾人设计的盲道占道路总宽的 20%，但残疾人数量仅占中国的 13% 不到，（法律要求严禁占用盲道）是否公平？</li></ul><blockquote><p>据七普，盲人数量 1730 万。假设盲道设计宽度为 0.5m，符合一些宽 2.5m 以下的窄人行道的情况。</p></blockquote><ul><li>对给宠物猫狗喂食高端食物的行为算不算「狗彘食人食而不知检」？</li></ul><blockquote><p>参见：马克吃战斧牛排被 bilibili 用户攻击，京东三文鱼评论中喂猫吃三文鱼的视频被楼中楼评论攻击，但后者被转发到微博后，微博的舆论完全倾向于「喂猫吃三文鱼没问题」。</p></blockquote><p>其实答案无所谓有也无所谓无，我只是想知道这个人是否拥有沉下心来思考这些「不务正业」的问题的能力。至于那些「懒得去想」的人，也只能「道不同，不相为谋」了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>委碎之词</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>解决群晖套件 Transmission「too many open file」导致的红种</title>
     <link href="/2023/04/06/Solving-the-Too-Many-Open-Files-error-in-Transmission.html"/>
     <url>/2023/04/06/Solving-the-Too-Many-Open-Files-error-in-Transmission.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="解决群晖套件-Transmission「too-many-open-file」导致的红种"><a href="#解决群晖套件-Transmission「too-many-open-file」导致的红种" class="headerlink" title="解决群晖套件 Transmission「too many open file」导致的红种"></a>解决群晖套件 Transmission「too many open file」导致的红种</h1><p>2023.3.28<br>在 DSM 7.01 系统中操作。</p><p><strong><a href="https://www.silencetime.com/index.php/archives/276/">原文</a></strong></p><ol><li><p>用 <code>SSH</code> 登录群晖并给予 <code>root</code> 权限。<a href="https://kb.synology.cn/zh-cn/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet">DSM 官方手册</a>中提到</p><blockquote><p>命令：ssh DSM/SRM 管理员帐户@DSM/SRM IP 地址 -p SSH 端口号</p><p>示例：ssh <a href="mailto:&#x6d;&#121;&#97;&#x64;&#x6d;&#x69;&#110;&#64;&#x31;&#48;&#x2e;&#49;&#55;&#x2e;&#x32;&#46;&#54;">&#x6d;&#121;&#97;&#x64;&#x6d;&#x69;&#110;&#64;&#x31;&#48;&#x2e;&#49;&#55;&#x2e;&#x32;&#46;&#54;</a> -p 22</p></blockquote><p> <code>端口号</code>可以在 <code>控制面板 -&gt; 终端机和 SNMP -&gt; 终端机</code>中找到。同时你需要确保<code>启动 SSH 功能</code>打了勾。</p><p> 把群晖密码复制粘贴到 <code>password</code> 中，不显示密码是正常的，粘贴完直接回车即可。看到后 <code>myadmin@DiskStation:/$</code> 再输入 <code>sudo -i</code>并再次粘贴密码获取 <code>root</code>权限。完成后应该会显示 <code>root@DiskStation:~#</code>。</p></li><li><p>下载原文提供的文件后，上传到群晖中，复制该文件<strong>所在目录的地址</strong>。</p></li><li><p>使用 <code>cd &quot;粘贴所在目录地址&quot;</code> 定位到该文件所在目录。如果不加上英文双引号，可能会报错 <code>-ash: cd: too many arguments</code>。</p></li><li><p>输入 <code>chmod 755 rlimit</code> 来给该文件提供权限。</p></li><li><p>输入 <code>ps -ef | grep trans</code> 获取 Transmission 的进程编号。</p></li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">sc-tran+ 17068     1  7 Mar26 ?        04:45:36 /volume1/@appstore/transmission/bin/transmission-daemon -g /volume1/@appdata/transmission <br></code></pre></td></tr></table></figure><p>在输出中找到如上述 <code>17068</code> 进程编号，即为Transmission 的进程编号。</p><ol><li>输入 <code>./rlimit 进程编号</code> 就可开始更改。</li><li>输入 <code>cat /proc/进程编号/limits</code> 查看是否完成操作。</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">Max open files   60000     60000      files<br></code></pre></td></tr></table></figure><p>看到如上图所示即为修改成功。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="解决群晖套件-Transmission「too-many-open-file」导致的红种"><a href="#解决群晖套件-Transmission「too-many-open-file」导致的红种" class="headerlink" title="解决群晖套件 Transmission「too many open file」导致的红种"></a>解决群晖套件 Transmission「too many open file」导致的红种</h1><p>2023.3.28<br>在 DSM 7.01 系统中操作。</p><p><strong><a href="https://www.silencetime.com/index.php/archives/276/">原文</a></strong></p><ol><li><p>用 <code>SSH</code> 登录群晖并给予 <code>root</code> 权限。<a href="https://kb.synology.cn/zh-cn/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet">DSM 官方手册</a>中提到</p><blockquote><p>命令：ssh DSM/SRM 管理员帐户@DSM/SRM IP 地址 -p SSH 端口号</p><p>示例：ssh <a href="mailto:&#109;&#x79;&#97;&#x64;&#109;&#x69;&#x6e;&#x40;&#x31;&#x30;&#46;&#49;&#x37;&#x2e;&#x32;&#46;&#54;">&#109;&#x79;&#97;&#x64;&#109;&#x69;&#x6e;&#x40;&#x31;&#x30;&#46;&#49;&#x37;&#x2e;&#x32;&#46;&#54;</a> -p 22</p></blockquote><p> <code>端口号</code>可以在 <code>控制面板 -&gt; 终端机和 SNMP -&gt; 终端机</code>中找到。同时你需要确保<code>启动 SSH 功能</code>打了勾。</p><p> 把群晖密码复制粘贴到 <code>password</code> 中，不显示密码是正常的，粘贴完直接回车即可。看到后 <code>myadmin@DiskStation:/$</code> 再输入 <code>sudo -i</code>并再次粘贴密码获取 <code>root</code>权限。完成后应该会显示 <code>root@DiskStation:~#</code>。</p></li><li><p>下载原文提供的文件后，上传到群晖中，复制该文件<strong>所在目录的地址</strong>。</p></li><li><p>使用 <code>cd &quot;粘贴所在目录地址&quot;</code> 定位到该文件所在目录。如果不加上英文双引号，可能会报错 <code>-ash: cd: too many arguments</code>。</p></li><li><p>输入 <code>chmod 755 rlimit</code> 来给该文件提供权限。</p></li><li><p>输入 <code>ps -ef | grep trans</code> 获取 Transmission 的进程编号。</p></li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">sc-tran+ 17068     1  7 Mar26 ?        04:45:36 /volume1/@appstore/transmission/bin/transmission-daemon -g /volume1/@appdata/transmission <br></code></pre></td></tr></table></figure><p>在输出中找到如上述 <code>17068</code> 进程编号，即为Transmission 的进程编号。</p><ol><li>输入 <code>./rlimit 进程编号</code> 就可开始更改。</li><li>输入 <code>cat /proc/进程编号/limits</code> 查看是否完成操作。</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">Max open files   60000     60000      files<br></code></pre></td></tr></table></figure><p>看到如上图所示即为修改成功。</p>]]></content>
     
     
     <categories>
