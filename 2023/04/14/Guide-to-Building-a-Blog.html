@@ -30,7 +30,7 @@
 <meta property="og:description" content="Github Page+Hexo+Fluid 搭建博客我希望结合自己零基础地搭建博客的经历，通过本文对教程中较为含糊的步骤进行解释，以帮助小白。本文以这篇文章为基础进行 GitHub Pages + hexo +Fluid 主题的博客的搭建，本文主要记录搭建过程中遇到的一些问题以及解决方法。 博客搭建 在安装 Git 的时候没有进行邮箱的配置，似乎没有问题。  在建立新的仓库（repository">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-16T12:55:52.516Z">
+<meta property="article:modified_time" content="2024-03-16T13:46:17.396Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -306,6 +306,13 @@
 <li><p>遇到报错 <code>fatal: unable to access &#39;https://github.com/xx/xx.GitHub.io.git/&#39;: Recv failure: Connection was reset</code>，根据这篇<a target="_blank" rel="noopener" href="https://z.arlmy.me/posts/hexo/Hexo_DeployMeetsGFW/">文章</a>设置代理。不知为何网上说的修改 repo 之类的方法在我这里无效。</p>
 </li>
 <li><p>遇到了 <code>&quot;OperationalError:&#39; EPERM:&#39; operation not permitted, unlink …&quot;</code> 报错，如果重启并使用管理员模式重新打开 CMD 无法解决，百试不爽的方法是直接删除对应的文件夹（其实都是空的），重启再次输入指令。也可以根据这篇<a target="_blank" rel="noopener" href="https://123wuyujuan.github.io/uncategorized/hexo-%E9%94%99%E8%AF%AF/">文章</a>进行操作。</p>
+</li>
+<li><p>幾個月沒登錄，突然要求輸入帳戶密碼，而密碼又無法輸入。解決方式是用 SSH 登錄，參考這篇<a target="_blank" rel="noopener" href="https://silencetiano.github.io/2021/06/03/hexo-deploy%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%85%8D%E6%AF%8F%E6%AC%A1%E8%BE%93%E5%85%A5github%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/">文章</a>。</p>
+<ul>
+<li>git bash 中只需要順着文章裏的命令輸入，不需要輸入密碼，留空回車即可。</li>
+<li>GitHub 添加公共密钥：<code>Setting-&gt;SSH and GPG keys-&gt;new SSH Key</code></li>
+<li><code>.deploy_git</code> 可以直接刪除。</li>
+</ul>
 </li>
 </ul>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
