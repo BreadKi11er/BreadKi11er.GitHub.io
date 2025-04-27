@@ -30,7 +30,7 @@
 <meta property="og:description" content="Github Page+Hexo+Fluid 搭建博客 我希望结合自己零基础地搭建博客的经历，通过本文对教程中较为含糊的步骤进行解释，以帮助小白。本文以这篇文章为基础进行 GitHub Pages + hexo +Fluid 主题的博客的搭建，本文主要记录搭建过程中遇到的一些问题以及解决方法。 ¶博客搭建   在安装 Git 的时候没有进行邮箱的配置，似乎没有问题。   在建立新的仓库（repos">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-03-27T08:46:30.551Z">
+<meta property="article:modified_time" content="2025-04-12T01:52:54.377Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -375,6 +375,14 @@ vscode-&gt;扩展（ctrl+shift+X）-&gt;单击 maekdownlint-&gt;单击「卸载�
 </li>
 </ol>
 </li>
+<li>
+<p>Alt Text 的内容能否设置为图片下方的注释：<a target="_blank" rel="noopener" href="https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/1350">https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/1350</a></p>
+<ol>
+<li>編輯 parser.js 檔案的 onWillParseMarkdown 或 onDidParseMarkdown 函數。</li>
+<li>工作區 -&gt; Ctrl+Shift+P -&gt; 輸入 parser.js -&gt; 全局設置 -&gt; 修改任一函數爲：</li>
+</ol>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-attr">onWillParseMarkdown</span>: <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span>(<span class="hljs-params">markdown</span>) &#123;<br>  markdown = markdown.<span class="hljs-title function_">replace</span>(<span class="hljs-regexp">/!\[(.*?)\]\((.*?)\)/g</span>, <span class="hljs-function">(<span class="hljs-params">all,alt,src</span>) =&gt;</span> <span class="hljs-string">`<span class="hljs-subst">$&#123;all&#125;</span>&lt;span style=&quot;margin-top:-5px;text-decoration: underline;text-underline-offset:2px;text-decoration-color:#d9d9d9;font-size:13px;text-align:center;display:block;&quot;&gt;<span class="hljs-subst">$&#123;alt&#125;</span>&lt;/span&gt;`</span>);<br>  <span class="hljs-keyword">return</span> markdown;<br>&#125;,<br><br><span class="hljs-attr">onDidParseMarkdown</span>: <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span>(<span class="hljs-params">html</span>) &#123;<br>  html = html.<span class="hljs-title function_">replace</span>(<span class="hljs-regexp">/&lt;img src=&quot;(.*?)&quot; alt=&quot;(.*?)&quot;.*?&gt;/g</span>, <span class="hljs-function">(<span class="hljs-params">all,src,alt</span>) =&gt;</span> <span class="hljs-string">`<span class="hljs-subst">$&#123;all&#125;</span>&lt;span style=&quot;margin-top:-5px;text-decoration: underline;text-underline-offset:2px;text-decoration-color:#d9d9d9;font-size:13px;text-align:center;display:block;&quot;&gt;<span class="hljs-subst">$&#123;alt&#125;</span>&lt;/span&gt;`</span>);<br>  <span class="hljs-keyword">return</span> html;<br>&#125;,<br></code></pre></td></tr></table></figure>
+</li>
 </ul>
 
                 
@@ -428,7 +436,7 @@ vscode-&gt;扩展（ctrl+shift+X）-&gt;单击 maekdownlint-&gt;单击「卸载�
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2025年3月27日</div>
+          <div>2025年4月12日</div>
         </div>
       
       
@@ -481,8 +489,8 @@ vscode-&gt;扩展（ctrl+shift+X）-&gt;单击 maekdownlint-&gt;单击「卸载�
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/03/30/Suzume-no-Tojimari-review.html" title="已经不能适应电影院的观影环境了">
-                        <span class="hidden-mobile">已经不能适应电影院的观影环境了</span>
+                      <a href="/2023/03/30/JK-and-Anime-Characters-and-Mankind.html" title="JK 、纸片人和人类">
+                        <span class="hidden-mobile">JK 、纸片人和人类</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
