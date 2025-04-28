@@ -156,25 +156,6 @@
   
   
   <entry>
-    <title>用一個迷你手柄實現四個功能</title>
-    <link href="/2024/07/10/One-Mini-Controller-For-Four-features.html"/>
-    <url>/2024/07/10/One-Mini-Controller-For-Four-features.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>用一個迷你手柄實現四個功能</h1><p>前日購入 <a href="https://www.8bitdo.cn/micro/">8BitDo Micro</a> 迷你藍牙手柄一隻。價格近 100 元，但有專用的精英軟件可修改鍵位配置，八位堂的建造品質也比較令人放心。不過到手才發現他們家所謂的精英軟件是一對一的，並沒有集成，本手柄的軟件只有移動端的版本，有些敷衍。</p><p>如果手頭拮据，我更推薦嘗試 20 元左右的 shanwan 牌迷你手柄，除了上述兩點外，據評論稱與八位堂不相上下。而如果使用 Joy-Con，可以用 <a href="https://joytokey.net/ja/">JoyToKey</a> 做映射，不過會有降低壽命的隱患，不介意者可以嘗試。</p><p>以下的操作，都建立在我慣用手和豎握手柄習慣的基礎上，可以根據實際情況增減按鍵做調節。</p><h2 id="安卓-Perfect-Viewer-漫畫閱讀器翻頁"><a class="header-anchor" href="#安卓-Perfect-Viewer-漫畫閱讀器翻頁">¶</a>安卓 Perfect Viewer 漫畫閱讀器翻頁</h2><ol><li>按說明書連接設備與手柄。</li><li>打開 Perfect Viewer 進入<code>書架頁</code> -&gt; 左上角<code>側邊欄</code> -&gt; <code>設定</code> -&gt; <code>控制及硬體按鍵</code> -&gt; 拉到最底下點擊<code>管理硬體按鍵</code></li><li>按動手柄按鍵即可自定義按鍵功能，需要注意的是<ol><li>默認的按鍵碼可能會與手柄的按鍵碼衝突，可以右滑刪除它們再添加。</li><li>需要填入<code>說明</code>。</li></ol></li></ol><p>設置完成後如下：<br><img src="https://cdn.jsdelivr.net/gh/BreadKi11er/blogImgs@main/img/photo_2024-07-10_22-55-18.jpg" alt=" "></p><h2 id="安卓-Anki-記憶卡翻頁"><a class="header-anchor" href="#安卓-Anki-記憶卡翻頁">¶</a>安卓 Anki 記憶卡翻頁</h2><ol><li>按說明書連接設備與手柄。</li><li>打開 Anki 打開左上角<code>側邊欄</code> -&gt; <code>設定</code> -&gt; <code>控制</code> -&gt; <code>Answer buttons</code> -&gt; <code>新增按鍵</code> -&gt; 按動手柄按鍵 -&gt; <code>問與答</code></li></ol><p>設置完成後如下：<br><img src="https://cdn.jsdelivr.net/gh/BreadKi11er/blogImgs@main/img/Screenshot_2024-07-10-22-15-44-278_com.ichi2.anki-edit.jpg" alt=" "></p><h2 id="文石電子書閱讀器翻頁"><a class="header-anchor" href="#文石電子書閱讀器翻頁">¶</a>文石電子書閱讀器翻頁</h2><ol><li>按說明書連接設備與手柄。</li><li>用 USB 線連接閱讀器與電腦。下載 <a href="https://github.com/keymapperorg/KeyMapper">KeyMapper</a> 並傳輸到任一個文件夾（最好便於確認，如 <code>.*\Poke5\內部共用儲存空間\Download\AppMarket</code> 的文件會出現在閱讀器內的<code>下載</code>文件夾中）。</li><li>在閱讀器上進入<code>文件頁</code>，找到安裝包並安裝，接着可以到<code>應用頁</code>找到位於末尾的 KeyMapper 並打開。</li><li>授予權限：<ol><li>其中包括用該應用替代內置鍵盤的權限，因此在使用映射功能時無法使用內置鍵盤。</li><li>沒有 ROOT 的一般情況下，需要在電腦上<a href="https://sspai.com/post/40471">配置 ADB</a>，接着按照<a href="https://docs.keymapper.club/user-guide/adb-permissions/#prepare-adb-android-debug-bridge">文檔</a>賦予 <code>WRITE_SECURE_SETTINGS</code> 權限。</li></ol></li><li>設定映射：<ol><li>點擊 <code>RECORD TRIGGER</code> 並在五秒內按下需要的按鍵，再點擊<code>ADD ACTION</code> 從 <a href="https://elementalx.org/button-mapper/android-key-codes/">KEY CODE</a> 一欄中選擇需要的按鍵。</li><li>在默認閱讀器中，有三種翻頁方式：<ol><li><code>21-22 DPAD</code>，映射到手柄的默認翻頁按鍵，即左右十字鍵進行翻頁。</li><li><code>24-25 VOLUME</code>，映射到手柄的音量鍵進行翻頁。<strong>經過測試，此映射延遲最低，推薦。</strong></li><li><code>92-93 PAGE</code>，映射到翻頁鍵進行翻頁。</li></ol></li><li>設定好 <code>Actions</code> 後點擊該動作後的 <code>⋮</code>，關閉 <code>Repeat actions</code>，另一個 “toast message” 開關可以在發現映射無法生效時開啓，以查看軟件是否已經接受到輸入，以此開始排錯。</li></ol></li><li>在左側屏幕下滑喚出信息欄，確認 Key Mapper 進入了 <code>Running</code> 狀態，就可以進入閱讀器進行測試了。</li></ol><p>設置完成後如下：<br><img src="https://cdn.jsdelivr.net/gh/BreadKi11er/blogImgs@main/img/Screenshot_20240710-225308_105323.png" alt=" "></p><blockquote><p>更多關於翻頁器的參考資料：<br><a href="https://www.bilibili.com/video/BV1Gq4y147zj/">https://www.bilibili.com/video/BV1Gq4y147zj/</a><br><a href="https://www.bilibili.com/video/BV18quWeUESU/">https://www.bilibili.com/video/BV18quWeUESU/</a><br><a href="https://tieba.baidu.com/p/7247113764">https://tieba.baidu.com/p/7247113764</a><br><a href="https://m.okjike.com/originalPosts/62637556f27220786569e850">https://m.okjike.com/originalPosts/62637556f27220786569e850</a></p></blockquote><h2 id="安卓串流電腦文字遊戲時翻頁"><a class="header-anchor" href="#安卓串流電腦文字遊戲時翻頁">¶</a>安卓串流電腦文字遊戲時翻頁</h2><ol><li>手機上安裝精英軟件進行鍵位映射，由於 GalGame 的鍵位各有不同，因此需要根據遊戲做調整。</li><li>配置 moonlight+sunshine <a href="https://www.kungal.com/topic/437">串流</a>。</li><li>手柄連接電腦，打開 Galgame 後可以直接使用手柄進行操作。</li></ol><p>目前的映射鍵如下：<br><img src="https://cdn.jsdelivr.net/gh/BreadKi11er/blogImgs@main/img/Screenshot_2024-07-10-23-18-57-789_com.abitdo.advance-edit.jpg" alt=" "></p><h1>後記</h1><p>設備的邊際效應極大，萬萬不可沉溺與倒騰設備本身，應該將時間花在消費書影音遊等產品上。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Not Even Wrong</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>呓语几则 III</title>
     <link href="/2024/07/01/Some-raving-III.html"/>
     <url>/2024/07/01/Some-raving-III.html</url>
